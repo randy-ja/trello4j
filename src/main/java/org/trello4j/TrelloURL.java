@@ -31,6 +31,7 @@ public class TrelloURL {
 	public static final String BOARD_MEMBERS_URL = "https://api.trello.com/1/boards/{0}/members";
 	public static final String BOARD_MEMBERS_INVITED_URL = "https://api.trello.com/1/boards/{0}/membersInvited";
 	public static final String BOARD_PREFS_URL = "https://api.trello.com/1/boards/{0}/myPrefs";
+        public static final String BOARD_LABELS_URL = "https://api.trello.com/1/boards/{0}/labels";
 	public static final String BOARD_ORGANIZAION_URL = "https://api.trello.com/1/boards/{0}/organization";
 	public static final String BOARD_CLOSED_URL = "https://api.trello.com/1/boards/{0}/closed";
 	public static final String CARD_ACTION_URL = "https://api.trello.com/1/cards/{0}/actions";
@@ -60,6 +61,7 @@ public class TrelloURL {
 	public static final String CHECKLIST_BOARD_URL = "https://api.trello.com/1/checklists/{0}/board";
 	public static final String CHECKLIST_CHECKITEMS_URL = "https://api.trello.com/1/checklists/{0}/checkItems";
 	public static final String CHECKLIST_CARDS_URL = "https://api.trello.com/1/checklists/{0}/cards";
+        public static final String CHECKLIST_POST_URL = "https://api.trello.com/1/checklists";
 	public static final String TOKENS_URL = "https://api.trello.com/1/tokens/{0}";
 	public static final String TOKENS_MEMBER_URL = "https://api.trello.com/1/tokens/{0}/member";
 	public static final String ORGANIZATION_MEMBERS_URL = "https://api.trello.com/1/organizations/{0}/members";

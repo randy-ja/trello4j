@@ -48,4 +48,8 @@ public interface ChecklistService {
 	 * @return the check items by checklist
 	 */
 	java.util.List<CheckItem> getCheckItemsByChecklist(String checklistId);
+        
+        Checklist addChecklistToCard(String cardId, String checkListName);
+        
+        CheckItem addItemToChecklist(String checklistId, String checkItem);
 }

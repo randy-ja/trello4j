@@ -6,6 +6,7 @@ import org.trello4j.model.Action;
 import org.trello4j.model.Board;
 import org.trello4j.model.Board.Prefs;
 import org.trello4j.model.Card;
+import org.trello4j.model.Label;
 import org.trello4j.model.Checklist;
 import org.trello4j.model.Member;
 import org.trello4j.model.Organization;
@@ -34,5 +35,7 @@ public interface BoardService {
 	List<Card> getCardsByBoard(String boardId, String... filter);
 
 	Prefs getPrefsByBoard(String boardId);
+        
+        List<Label> getLabelsByBoard(String boardId);
 
 }

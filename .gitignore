@@ -6,3 +6,5 @@ target
 *.iml
 .idea
 src/test/resources/cardservice.properties
+/build/
+.gradle/
